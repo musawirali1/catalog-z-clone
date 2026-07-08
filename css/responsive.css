@@ -1,0 +1,285 @@
+/* ==========================================
+   Large Devices (992px)
+========================================== */
+
+@media (max-width: 992px) {
+  /* Header */
+
+  .header .container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .navbar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  /* Banner */
+
+  .banner {
+    height: 300px;
+  }
+
+  .search-box {
+    width: 90%;
+  }
+
+  /* Photos */
+
+  .photo-header,
+  .video-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .photo-gallery,
+  .video-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* About */
+
+  .about-content {
+    flex-direction: column;
+  }
+
+  .about-section h1 {
+    font-size: 40px;
+  }
+
+  /* Two Column */
+
+  .two-column .container {
+    grid-template-columns: 1fr;
+
+    gap: 60px;
+  }
+
+  /* Three Column */
+
+  .three-column .container {
+    grid-template-columns: 1fr;
+  }
+
+  /* Contact */
+
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  /* Footer */
+
+  .footer .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+}
+
+/* ==========================================
+   Tablet (768px)
+========================================== */
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  .banner {
+    height: 250px;
+  }
+
+  .search-box {
+    width: 95%;
+  }
+
+  .search-box input {
+    font-size: 16px;
+  }
+
+  .search-box button {
+    width: 60px;
+  }
+
+  .photo-gallery,
+  .video-gallery {
+    grid-template-columns: 1fr 1fr;
+
+    gap: 20px;
+  }
+
+  .about-section h1,
+  .column h2,
+  .box h2,
+  .contact-form h2,
+  .contact-info h3 {
+    font-size: 34px;
+  }
+
+  .icon-box {
+    width: 180px;
+    height: 180px;
+  }
+
+  .icon-box i {
+    font-size: 60px;
+  }
+}
+
+/* ==========================================
+   Mobile (576px)
+========================================== */
+
+@media (max-width: 576px) {
+  .container {
+    width: 92%;
+  }
+
+  /* Header */
+
+  .navbar ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  /* Banner */
+
+  .banner {
+    height: 220px;
+  }
+
+  .search-box {
+    height: 50px;
+  }
+
+  .search-box input {
+    padding: 0 15px;
+    font-size: 15px;
+  }
+
+  .search-box button {
+    width: 55px;
+  }
+
+  /* Gallery */
+
+  .photo-gallery,
+  .video-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .photo-header h2,
+  .video-header h2 {
+    font-size: 28px;
+  }
+
+  /* Cards */
+
+  .photo-card h3,
+  .video-card h3 {
+    font-size: 20px;
+  }
+
+  .photo-info,
+  .video-info {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  /* Pagination */
+
+  .pagination .container {
+    flex-direction: column;
+
+    gap: 20px;
+  }
+
+  /* About */
+
+  .about-section h1 {
+    font-size: 30px;
+  }
+
+  .column h2,
+  .box h2 {
+    font-size: 28px;
+  }
+
+  .about-text p,
+  .column p,
+  .box p {
+    font-size: 16px;
+  }
+
+  .icon-box {
+    width: 150px;
+    height: 150px;
+  }
+
+  .icon-box i {
+    font-size: 50px;
+  }
+
+  /* Contact */
+
+  .contact-form h2,
+  .contact-info h3 {
+    font-size: 28px;
+  }
+
+  .contact-form button {
+    width: 100%;
+  }
+
+  .social {
+    justify-content: center;
+  }
+}
+
+/* ==========================================
+   Small Mobile (400px)
+========================================== */
+
+@media (max-width: 400px) {
+  .navbar_brand {
+    font-size: 28px;
+  }
+
+  .banner {
+    height: 180px;
+  }
+
+  .search-box {
+    height: 45px;
+  }
+
+  .search-box input {
+    font-size: 14px;
+  }
+
+  .photo-header h2,
+  .video-header h2,
+  .about-section h1 {
+    font-size: 24px;
+  }
+
+  .column h2,
+  .box h2 {
+    font-size: 22px;
+  }
+
+  .page-nav {
+    flex-wrap: wrap;
+  }
+
+  .page-number {
+    flex-wrap: wrap;
+
+    justify-content: center;
+  }
+}

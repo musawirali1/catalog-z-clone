@@ -1,0 +1,161 @@
+.video-banner {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-video {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.banner-overlay {
+  position: absolute;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.search-box {
+  position: relative;
+  z-index: 10;
+}
+
+/*
+   Videos Section
+ */
+
+.videos {
+  padding: 80px 0;
+}
+
+.video-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.video-header h2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #009999;
+}
+
+.page-nav {
+  display: flex;
+  gap: 8px;
+}
+
+.page-nav a {
+  text-decoration: none;
+  color: #009999;
+  font-size: 17px;
+}
+
+.page-nav .active {
+  color: #fff;
+  background: #009999;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+/* 
+   Video Gallery
+ */
+
+.video-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+/* 
+   Video Card
+*/
+
+.video-card {
+  width: 260px;
+}
+
+.video-thumbnail {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.video-thumbnail video {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+  transition: 0.4s ease;
+}
+
+.video-card:hover video {
+  transform: scale(1.08);
+}
+
+/* 
+   Play Button
+*/
+
+.play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 60px;
+  height: 60px;
+
+  color: #ffffff;
+
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 22px;
+
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.video-card:hover .play-btn {
+  color: #000000;
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+/* 
+   Video Title
+*/
+
+.video-card h3 {
+  margin: 18px 0 12px;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 400;
+}
+
+/* 
+   Video Info */
+
+.video-info {
+  display: flex;
+  justify-content: space-between;
+  color: #999;
+  font-size: 14px;
+}

@@ -1,0 +1,186 @@
+/* Banner */
+
+.banner {
+  width: 100%;
+  height: 320px;
+
+  background-image: url("../images/hero.jpg");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Search Box */
+
+.search-box {
+  display: flex;
+}
+
+/* Input */
+
+.search-box input {
+  width: 330px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding: 0 25px;
+  font-size: 16px;
+  color: #008b8b;
+}
+
+/* Button */
+
+.search-box button {
+  width: 100px;
+  height: 50px;
+  border: none;
+  background: #0aa6a6;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.search-box button:hover {
+  background: #088f8f;
+}
+
+/* Photos Section */
+
+.photos {
+  padding: 80px 0;
+}
+
+.photo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.photo-header h2 {
+  color: #009999;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.page-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.page-nav a {
+  text-decoration: none;
+  color: #666;
+  font-size: 18px;
+}
+
+.page-nav .active {
+  color: #009999;
+}
+
+/* Gallery */
+
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.photo-card {
+  width: 23%;
+}
+
+.photo-card img {
+  width: 100%;
+  display: block;
+  border-radius: 4px;
+}
+
+.photo-card h3 {
+  margin: 16px 0;
+  color: #009999;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.photo-info {
+  display: flex;
+  justify-content: space-between;
+  color: #888;
+  font-size: 15px;
+}
+
+/* Pagination */
+
+.pagination {
+  padding: 80px 0;
+}
+
+.pagination .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Previous & Next Button */
+
+.btn {
+  width: 200px;
+  height: 50px;
+  background: #009999;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #0bb3b3;
+}
+
+/* Previous Button */
+
+.previous {
+  opacity: 0.6;
+}
+
+/* Page Numbers */
+
+.page-number {
+  display: flex;
+  gap: 25px;
+}
+
+.page-number a {
+  width: 60px;
+  height: 60px;
+  background: #f1f1f1;
+  color: #999;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.page-number a:hover {
+  background: #009999;
+  color: white;
+}
+
+.page-number .active {
+  background: #009999;
+  color: white;
+}

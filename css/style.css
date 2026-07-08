@@ -1,0 +1,27 @@
+@import url("header.css");
+@import url("footer.css");
+@import url("home.css");
+@import url("about.css");
+@import url("contact.css");
+@import url("videos.css");
+@import url("responsive.css");
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+/* Global CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
